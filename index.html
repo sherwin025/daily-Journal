@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="topPage">
+        <div class="logo">
+            <a href= ><img src=""/></a>
+            <h2>Sherwin's Journal Enteries</h2>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <section class="newEntry">
+            <h2>Daily Journal</h2>
+            <form class="date">
+                <fieldset>
+                    <label for="entryDate">Date of Entry:</label>
+                    <input type="date" name="entryDate" class="newEntry__date">
+                </fieldset>
+            </form>
+            <form class="concept">
+                <fieldset>
+                    <label for="conceptsCovered">Concepts Covered:</label>
+                    <input type="input" name="conceptsCovered" class="newEntry__concepts">
+                </fieldset>
+            </form>
+            <form class="journlEntry">
+                <fieldset>
+                    <label for="journalEntry">Journal Entry:</label>
+                    <input type="textarea" name="journalEntry" class="newEntry__journal" wrap="physical">
+                </fieldset>
+            </form>
+            <form class="mood">
+                <fieldset>
+                    <label for="mood">Mood for the day:</label>
+                    <select name="moods" class="moods">
+                        <option value="happy">Happy</option>
+                        <option value="sad">Sad</option>
+                        <option value="confused">confused</option>
+                        <option value="good">Good</option>
+                        <option value="angry">Angry</option>
+                        <option value="annoyed">Annoyed</option>
+                        <option value="blah">Blah</option>
+                      </select>
+                </fieldset>
+            </form>
+            <button class="record">Record Journal Entry</button>
+
+        </section>
+        <section class="reviewEntry">
+            <article class="listOfEntries">
+                <h3>Previous Entries</h3>
+                <ol class="previousEntry">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </article>
+            <article class="bigEntry">
+                <h3>View Entry</h3>
+                <div class="bigEntry__top">
+                    <div>Date</div>
+                    <div>Mood</div>
+                </div>
+                <div class="bigEntry__concept">Concept Covered</div>
+                <div class="bigEntry__entry">Entry</div>
+                <button class="bigEntry__edit">Edit</button>
+                <button class="bigEntry__delete">Delete</button>
+            </article>
+
+        </section>
+
+        <article id="entries"></article>
+    </main>
+    <footer>
+        <section class="contact">
+        
+        </section>
+        <section class=links>
+
+        </section>
+    </footer>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

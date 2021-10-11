@@ -1,0 +1,11 @@
+.newEntry {
+    display: flex;
+    flex-direction: column;
+}
+
+.newEntry__journal {
+    height: 100px;
+    width: 200px;
+    flex-wrap: wrap;
+    resize: none;
+}

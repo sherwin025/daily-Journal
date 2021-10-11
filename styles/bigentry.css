@@ -1,0 +1,13 @@
+.bigEntry__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+.bigEntry__concept {
+    text-align: center;
+}
+
+.bigEntry__entry {
+    text-align: center;
+}

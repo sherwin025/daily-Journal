@@ -1,0 +1,11 @@
+.reviewEntry {
+    display: flex;
+}
+
+.listOfEntry {
+    flex: 1;
+}
+
+.bigEntry {
+    flex: 3
+}

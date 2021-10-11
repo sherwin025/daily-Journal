@@ -1,0 +1,19 @@
+@import url(entryForm.css);
+@import url(previousEntry.css);
+@import url(bigentry.css);
+
+* {
+    border: 1px goldenrod dotted;
+}
+
+.main {
+    display: flex;
+}
+
+.newEntry {
+    flex: 1;
+}
+
+.reviewEntry {
+    flex: 2;
+}
