@@ -10,11 +10,11 @@ export const Entries = () => {
     let allEntriesAsHTML = ""
 
     for (const entry of entries) {
-        allEntriesAsHTML += `<section class="individualEntryPreview">
+        allEntriesAsHTML += `<li class="individualEntryPreview">
         <div class="listConcept">${entry.concept}
         </div>
         <div class="listdate">${entry.date}</div>
-        </section>`
+        </li>`
     }
 
 

@@ -9,3 +9,8 @@
     flex-wrap: wrap;
     resize: none;
 }
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
